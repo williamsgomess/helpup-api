@@ -8,6 +8,8 @@ API do Projeto Help UP, destinado aprestação de serviços de cuidados.
 
 ### GET
 
+Busca todos
+
 http://localhost:3000/calls
 
 RETURN:
@@ -35,6 +37,8 @@ RETURN:
         }
     ]
 
+Busca por ID
+
 http://localhost:3000/calls/1
 
 RETURN:
@@ -51,6 +55,8 @@ RETURN:
     }
 
 ### POST
+
+Adiciona
 
 http://localhost:3000/calls
 
@@ -77,6 +83,8 @@ RETURN
 
 ### DELETE
 
+Remove
+
 http://localhost:3000/calls/2
 
 
@@ -85,6 +93,7 @@ http://localhost:3000/calls/2
 ### GET
 
 Busca todos
+
 http://localhost:3000/caregivers
 
 RESULT
@@ -117,6 +126,7 @@ RESULT
     ]
 
 Busca por ID
+
 http://localhost:3000/caregivers/1
 
 RESULT
@@ -186,5 +196,7 @@ BODY
     }
 
 ### DELETE
+
+Remove
 
 http://localhost:3000/caregivers/1
