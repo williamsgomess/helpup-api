@@ -4,7 +4,7 @@ const Op = Sequelize.Op;
 module.exports = {
     database: 'heroku_49ac9aecbcc66ae',
     username: 'b581dc31107300',
-    password: '0ac80553@us',
+    password: '0ac80553',
     params: {
         dialect: 'mysql',
         host: 'us-cdbr-iron-east-03.cleardb.net',
