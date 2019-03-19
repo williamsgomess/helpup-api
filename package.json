@@ -1,0 +1,21 @@
+{
+  "name": "helpup",
+  "version": "1.0.0",
+  "description": "API base do sistema HelpUp para cuidadores",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "Williams Gomes <williamsgomes45@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "sequelize": "^4.43.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
